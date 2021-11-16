@@ -26,7 +26,7 @@ public class AmqpSinkExample extends RouteBuilder {
       /*
        * Explanation, method by method:
        *
-       * - from("timer:{{period}}")
+       * - from("timer:tick?period={{period}}")
        * Generate time-based events are a regular interval defined by "period". The default
        * period is 1 second - configured above - but can be overriden using the --property
        * flag (i.e.: --property period=newPeriodValue)
