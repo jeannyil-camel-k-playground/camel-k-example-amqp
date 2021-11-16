@@ -45,7 +45,7 @@ public class AmqpSinkExample extends RouteBuilder {
        * This sends the fake person data to the destination configured on the configuration
        * file
        */
-      from("timer:{{period}}")
+      from("timer:tick?period={{period}}")
         .routeId("amqp-producer-route")
         .bean(this, "generateFakePerson()")
         .to("log:info")
