@@ -2,7 +2,7 @@
 // camel-k: dependency=camel:camel-quarkus-amqp
 // camel-k: dependency=camel:camel-quarkus-timer property=period=1000
 // camel-k: dependency=mvn:com.github.javafaker:javafaker:1.0.2
-// camel-k: trait=prometheus.enabled=true trait=3scale.enabled=true trait=tracing.enabled=true trait=jvm.classpath=./dependency/mojar.jar
+// camel-k: trait=prometheus.enabled=true trait=3scale.enabled=true trait=tracing.enabled=true
 // camel-k: config=configmap:amqp-sink-config
 
 /*
