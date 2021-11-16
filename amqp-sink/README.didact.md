@@ -117,8 +117,8 @@ You should see an output like the following:
 
 ```
 ...
-[1] 2021-07-16 07:22:39,628 INFO  [info] (Camel (camel-1) thread #0 - timer://1000) Exchange[ExchangePattern: InOnly, BodyType: String, Body: Mrs. Kam Cronin lives on 20553 Devon Circles]
-[1] 2021-07-16 07:22:40,933 INFO  [org.apa.qpi.jms.JmsConnection] (AmqpProvider :(1):[amqp://my-amqp-service:5672]) Connection ID:0c0192c9-e71d-4f43-bc97-e7fc8ee9dbac:1 connected to server: amqp://my-amqp-service:5672
-[1] 2021-07-16 07:22:41,135 INFO  [info] (Camel (camel-1) thread #0 - timer://1000) Exchange[ExchangePattern: InOnly, BodyType: String, Body: Latina Morissette lives on 73051 Phillip Village]
+[1] 2021-11-16 13:42:00,211 INFO  [info] (Camel (camel-1) thread #0 - timer://tick) Exchange[ExchangePattern: InOnly, BodyType: String, Body: Raleigh Hickle DDS lives on 5219 Marcellus Island]
+[1] 2021-11-16 13:42:00,328 INFO  [org.apa.qpi.jms.JmsConnection] (AmqpProvider :(4):[amqps://amq-ssl-broker-amqp-0-svc.amq7-broker-cluster.svc:5672]) Connection ID:5610db2a-b0e5-48bd-bc7f-e6567a2372c5:4 connected to server: amqps://amq-ssl-broker-amqp-0-svc.amq7-broker-cluster.svc:5672
+[1] 2021-11-16 13:42:01,147 INFO  [info] (Camel (camel-1) thread #0 - timer://tick) Exchange[ExchangePattern: InOnly, BodyType: String, Body: Troy Kautzer lives on 41788 Rippin Springs]
 ...
 ```
